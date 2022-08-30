@@ -1,4 +1,4 @@
-package com.cydeo.interfaceSegregation;
+package com.cydeo.interfaceSegregation.good;
 
 import java.util.ArrayList;
 import java.util.List;

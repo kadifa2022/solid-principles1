@@ -1,6 +1,4 @@
-package com.cydeo.interfaceSegregation;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package com.cydeo.interfaceSegregation.good;
 
 public class Eagle implements CanFly, CanEat, CanWalk {
 

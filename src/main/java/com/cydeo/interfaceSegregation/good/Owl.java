@@ -1,4 +1,4 @@
-package com.cydeo.interfaceSegregation;
+package com.cydeo.interfaceSegregation.good;
 
 public class Owl implements CanWalk, CanEat,CanFly{
     @Override

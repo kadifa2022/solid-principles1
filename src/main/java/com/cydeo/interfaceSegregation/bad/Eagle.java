@@ -1,6 +1,6 @@
-package com.cydeo.interfaceSegregation;
+package com.cydeo.interfaceSegregation.bad;
 
-public class Chicken implements CanEat,CanWalk{
+public class Eagle implements Bird{
     @Override
     public void eat() {
         System.out.println("Eating");
@@ -10,6 +10,12 @@ public class Chicken implements CanEat,CanWalk{
     @Override
     public void walk() {
         System.out.println("Walking");
+
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Flying");
 
     }
 }
