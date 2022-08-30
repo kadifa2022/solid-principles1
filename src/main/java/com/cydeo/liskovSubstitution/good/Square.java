@@ -3,7 +3,7 @@ package com.cydeo.liskovSubstitution.good;
 public class Square implements Shape{
 
     private int side;
-    private void setSide(){
+    public void setSide(int side){
         this.side=side;
     }
     @Override
