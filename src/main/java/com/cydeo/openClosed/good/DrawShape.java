@@ -1,0 +1,14 @@
+package com.cydeo.openClosed.good;
+
+import java.util.List;
+
+public class DrawShape {
+
+    public void startDrawing(List<Shape> shapes){
+
+        for (Shape shape : shapes) {
+            shape.draw();
+
+        }
+    }
+}
