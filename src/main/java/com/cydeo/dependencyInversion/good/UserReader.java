@@ -7,7 +7,7 @@ public class UserReader {
         this.reader =reader;
     }
 
-    public String getReader() {
-        return reader.getUserName();
+    public String getUsername() {
+        return reader.getUsername();
     }
 }

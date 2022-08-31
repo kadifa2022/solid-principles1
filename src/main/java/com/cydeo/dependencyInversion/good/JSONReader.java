@@ -1,8 +1,16 @@
 package com.cydeo.dependencyInversion.good;
 
 public class JSONReader implements Reader{
+
+
+    /*
+    Example JSON:{
+
+     "userName": "mikesmith"
+     }
+    */
     @Override
-    public String getUserName() {
-        return " {\" userName}";
+    public String getUsername() {
+        return " {\" userName\": \"mikesmith\"}";
     }
 }
